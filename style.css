@@ -35,6 +35,23 @@ div {
   border: 2px solid black;
 }
 
+#palette {
+  height: 5%;
+  margin: 10px 0;
+}
+
+.color1 {
+  border: 2px solid black;
+}
+
+.color2 {
+  border: 2px solid black;
+}
+
 .red {
   background-color: red;
+}
+
+.blue {
+  background-color: blue;
 }

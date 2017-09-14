@@ -17,3 +17,15 @@ var selectBox4 = document.querySelector('#box4');
 selectBox4.addEventListener('click', function() {
   selectBox4.classList.toggle("red");
 })
+
+var paletteSelect = document.querySelector('#palette');
+paletteSelect.addEventListener('click', function(e) {
+  if (e.target.matches('.color1')) {
+    e.target.classList.toggle("red");
+    console.log("Hi Red");
+  }
+  if (e.target.matches('.color2')) {
+    e.target.classList.toggle("blue");
+    console.log("Hi Blue");
+  }
+})
